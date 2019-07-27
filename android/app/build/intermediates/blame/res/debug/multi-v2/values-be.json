@@ -55,23 +55,6 @@
                     }
                 },
                 {
-                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/bd0ba470e5bb5dcdab83d881c0ddfcad/res/values-be/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5555",
-                        "endColumns": "104",
-                        "endOffsets": "5655"
-                    }
-                },
-                {
                     "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/efcfc0d4258376dde6e21457850c13d5/res/values-be/values.xml",
                     "from": {
                         "startLines": "4",
@@ -86,6 +69,23 @@
                         "startOffsets": "3996",
                         "endColumns": "204",
                         "endOffsets": "4196"
+                    }
+                },
+                {
+                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/558201de7fb67b7102e6b355cd360e12/res/values-be/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "5555",
+                        "endColumns": "104",
+                        "endOffsets": "5655"
                     }
                 }
             ]

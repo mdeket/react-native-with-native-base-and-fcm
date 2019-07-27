@@ -59,23 +59,6 @@
                     }
                 },
                 {
-                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/bd0ba470e5bb5dcdab83d881c0ddfcad/res/values/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "176",
-                        "endColumns": "77",
-                        "endOffsets": "253"
-                    },
-                    "to": {
-                        "startLines": "314",
-                        "startColumns": "4",
-                        "startOffsets": "23434",
-                        "endColumns": "81",
-                        "endOffsets": "23511"
-                    }
-                },
-                {
                     "source": "/home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1",
@@ -200,6 +183,23 @@
                         "startOffsets": "23290,23516,23633,23715,23819,23922,24042,24456",
                         "endColumns": "143,116,81,103,102,119,105,82",
                         "endOffsets": "23429,23628,23710,23814,23917,24037,24143,24534"
+                    }
+                },
+                {
+                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/558201de7fb67b7102e6b355cd360e12/res/values/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "176",
+                        "endColumns": "77",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "314",
+                        "startColumns": "4",
+                        "startOffsets": "23434",
+                        "endColumns": "81",
+                        "endOffsets": "23511"
                     }
                 },
                 {

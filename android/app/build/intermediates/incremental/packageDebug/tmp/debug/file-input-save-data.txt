@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 27 12:33:14 CEST 2019
+#Sat Jul 27 13:11:06 CEST 2019
 23.set=NATIVE_RESOURCE
 31.set=NATIVE_RESOURCE
 33.base=/home/miland/work/andrea/Andrea360ManagerApp/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

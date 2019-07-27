@@ -7,17 +7,53 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+import {Root} from "native-base";
+import {
+  createAppContainer,
+  createDrawerNavigator,
+  createStackNavigator
+} from "react-navigation";
+import SideBar from "./src/navigation/SideBar";
+import ProfileScreen from "./src/screens/ProfileScreen";
+import ArrivalsScreen from "./src/screens/ArrivalsScreen";
+import {colors} from "./src/index.constants";
 import firebase from 'react-native-firebase';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 
-type Props = {};
+
+const Drawer = createDrawerNavigator(
+    {
+      Profile: {screen: ProfileScreen},
+      Arrivals: {screen: ArrivalsScreen},
+    },
+    {
+      initialRouteName: "Profile",
+      contentOptions: {
+        activeTintColor: colors.mainColor
+      },
+      contentComponent: props => <SideBar {...props} />
+    }
+);
+
+const AppNavigator = createStackNavigator(
+    {
+      Drawer: {screen: Drawer},
+    },
+    {
+      initialRouteName: "Drawer",
+      headerMode: "none"
+    }
+);
+
+const AppContainer = createAppContainer(AppNavigator);
+//
+// export default () =>
+//     <Root>
+//       <AppContainer/>
+//     </Root>;
+
+
 export default class App extends Component<Props> {
 
 
@@ -82,11 +118,9 @@ export default class App extends Component<Props> {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+        <Root>
+          <AppContainer/>
+        </Root>
     );
   }
 }

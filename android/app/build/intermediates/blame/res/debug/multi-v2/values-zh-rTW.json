@@ -4,23 +4,6 @@
             "outputFile": "/home/miland/work/andrea/Andrea360ManagerApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/bd0ba470e5bb5dcdab83d881c0ddfcad/res/values-zh-rTW/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "209",
-                        "endColumns": "96",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "4983",
-                        "endColumns": "100",
-                        "endOffsets": "5079"
-                    }
-                },
-                {
                     "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/3aa0df3727a070e558b776c54087c453/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,6 +18,23 @@
                         "startOffsets": "2675,2778,2938,3055,3159,3325,3443,3573,3859,4028,4131,4291,4408,4569,4707,4793,4880",
                         "endColumns": "102,159,116,103,165,117,129,123,168,102,159,116,160,137,85,86,102",
                         "endOffsets": "2773,2933,3050,3154,3320,3438,3568,3692,4023,4126,4286,4403,4564,4702,4788,4875,4978"
+                    }
+                },
+                {
+                    "source": "/home/miland/.gradle/caches/transforms-2/files-2.1/558201de7fb67b7102e6b355cd360e12/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "209",
+                        "endColumns": "96",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "4983",
+                        "endColumns": "100",
+                        "endOffsets": "5079"
                     }
                 },
                 {

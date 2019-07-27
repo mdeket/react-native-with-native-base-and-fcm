@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from [:react-native-gesture-handler] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-firebase] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.59.10] /home/miland/.gradle/caches/transforms-2/files-2.1/44d10ed0a1d0bd533db9f2cbdf06b401/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/miland/.gradle/caches/transforms-2/files-2.1/1ac82e25e8b5e952e5b370ac347aa1b8/AndroidManifest.xml:17:1-22:12
@@ -71,13 +72,13 @@ INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/debug
 		INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -106,9 +107,9 @@ ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/And
 	android:name
 		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:6:20-61
 application
-ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-52:17
-MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-52:17
-MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-52:17
+ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-35:17
+MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-35:17
+MERGED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:8:3-35:17
 MERGED from [:react-native-firebase] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
 MERGED from [:react-native-firebase] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
 MERGED from [com.facebook.react:react-native:0.59.10] /home/miland/.gradle/caches/transforms-2/files-2.1/44d10ed0a1d0bd533db9f2cbdf06b401/AndroidManifest.xml:11:5-20
@@ -215,13 +216,15 @@ ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/And
 	android:name
 		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:29:17-67
 service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
-ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:37:5-100
+ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:33:5-100
 	android:name
-		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:37:14-97
+		ADDED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml:33:14-97
 uses-sdk
 INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/miland/work/andrea/Andrea360ManagerApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase] /home/miland/work/andrea/Andrea360ManagerApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.10] /home/miland/.gradle/caches/transforms-2/files-2.1/44d10ed0a1d0bd533db9f2cbdf06b401/AndroidManifest.xml:7:5-9:41
