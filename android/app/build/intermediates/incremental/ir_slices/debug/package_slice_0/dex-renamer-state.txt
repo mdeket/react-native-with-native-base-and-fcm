@@ -1,0 +1,4 @@
+#Sat Jul 27 12:29:29 CEST 2019
+base.0=/home/miland/work/andrea/Andrea360ManagerApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
